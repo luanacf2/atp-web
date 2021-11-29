@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Road+Rage&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('background.jpg');
+}
+
+h1{
+    margin-left: 36vw;
+    color: #4B0082;
+    font-size: 8vh;
+    font-family: 'Road Rage', cursive;
+}
+p.inicio{
+    font-family: 'Itim', cursive;
+    font-size: 1.8rem;
+    margin-top: 0.8rem;
+    display: flex;
+    margin-left: 38vw;
+    align-items: center;
+    color: #4B0082;
+}
+h2{
+    margin-left: 15vh;
+    color:#4B0082;
+    font-size: 5vh;
+    font-family: 'Road Rage', cursive;
+}
+header{
+    width: 100%;
+    height: 14vh;
+    background: linear-gradient(to right,#5a5aa5,hsl(276, 50%, 79%),#5a5aa5);;
+}
+section{
+    width: 50vh;
+    height: 60vh;
+    background: linear-gradient(to right,hsl(276, 50%, 79%),#5a5aa5);
+    border-radius: 8px;
+    margin-left: 38vw;
+    margin-right: 40vw;
+    margin-top: 5vw;
+    box-shadow: 1px 1px 40px 10px #000000;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+}
+
+span{
+    font-size: 1.5rem;
+    margin-top: 1vh;
+    display: flex;
+    margin-left: 15vh;
+    font-family: 'Itim', cursive;
+}
+
+input{
+    background: #cfd4e2;
+    width: 40vh;
+    height: 5vh;
+    padding: 0 0.5rem;   
+    outline: none;
+    color: black;
+    font-size: 1rem;
+    border: 1px solid #170752;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2vh;
+}
+
+input[type="submit"]{
+    cursor: pointer;
+    width: 50%;
+    margin-top: 2rem;
+    border: none;
+    border-radius: 32px;
+    background: #4B0082;
+    color: white;
+    font-size: 1.5rem;
+    transition: all .3s ease-in-out ;
+    font-family: 'Itim', cursive;
+}
+
+input[type="submit"]:hover{
+    background: #5952d4;
+}
+
+p{
+    font-family: 'Special Elite', cursive;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    display: flex;
+    margin-left: 11vh;
+}
+
+input.bt{
+    font-family: 'Itim', cursive;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    margin-left: 12.5vh;
+    cursor: pointer;
+    width: 50%;
+    height: 10%;
+    text-align: center;
+    border: none;
+    border-radius: 32px;
+    background: #4B0082;
+    color: white;
+    transition: all .3s ease-in-out ;   
+}
+
+input.bt:hover{
+    background: #5952d4;
+}

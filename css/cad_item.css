@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Road+Rage&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('background.jpg');
+}
+
+h1{
+    margin-left: 12vh;
+    color: black;
+    font-size: 6vh;
+    font-family: 'Road Rage', cursive;
+}
+
+section{
+    width: 50vh;
+    height: 60vh;
+    background: linear-gradient(to right,hsl(276, 50%, 79%),#5a5aa5);
+    border-radius: 8px;
+    margin-left: 40vw;
+    margin-right: 40vw;
+    margin-top: 10vw;
+    box-shadow: 2px 1px 56px 12px #000000;
+}
+section form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section form label{
+    display: flex;
+    flex-direction: column;
+}
+
+section span{
+    font-size: 20px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section form input{
+    margin-top: 4vh;
+    background: #cfd4e2;
+    width: 40vh;
+    height: 5vh;
+    padding: 0 0.5rem;   
+    outline: none;
+    color: black;
+    font-size: 1rem;
+    border: 1px solid #170752;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section textarea{
+    width: 40vh;
+    height: 20vh;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 0.5rem;  
+    background: #cfd4e2;
+    border: 1px solid #170752;
+    margin-top: 4vh;
+}
+
+section form input[type="submit"]{
+    cursor: pointer;
+    width: 50%;
+    margin-top: 2rem;
+    border: none;
+    border-radius: 32px;
+    background: #09099b;
+    color: white;
+    font-size: 1.1rem;
+    transition: all .3s ease-in-out ;   
+}
+
+section form input[type="submit"]:hover{
+    background: #adbfc4;
+}
